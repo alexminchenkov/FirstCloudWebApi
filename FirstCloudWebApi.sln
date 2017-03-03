@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstCloudWebApi", "FirstCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstCloudWebApi.Tests", "FirstCloudWebApi.Tests\FirstCloudWebApi.Tests.csproj", "{367C49E6-CBEE-4BCF-957A-2674F5007223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstCloudWebApi.Services", "FirstCloudWebApi.Services\FirstCloudWebApi.Services.csproj", "{4A2BA986-3E94-4D84-80AB-76B6F6654957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{367C49E6-CBEE-4BCF-957A-2674F5007223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367C49E6-CBEE-4BCF-957A-2674F5007223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367C49E6-CBEE-4BCF-957A-2674F5007223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2BA986-3E94-4D84-80AB-76B6F6654957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2BA986-3E94-4D84-80AB-76B6F6654957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2BA986-3E94-4D84-80AB-76B6F6654957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2BA986-3E94-4D84-80AB-76B6F6654957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
