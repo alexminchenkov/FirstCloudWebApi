@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="PermutationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SieveOfEratosthenes.cs" />
     <Compile Include="StringPermutationService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
