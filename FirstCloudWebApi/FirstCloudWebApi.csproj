@@ -103,7 +103,10 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\SieveOfEratosthenesController.cs" />
+    <Compile Include="Controllers\SomeController.cs" />
     <Compile Include="Controllers\StringPermutationController.cs" />
+    <Compile Include="Controllers\TowersOfHanoiController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
