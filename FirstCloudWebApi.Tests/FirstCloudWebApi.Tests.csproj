@@ -64,8 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SieveOfEratosthenesTests.cs" />
     <Compile Include="StringPermutationServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TowersOfHanoiTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FirstCloudWebApi.Services\FirstCloudWebApi.Services.csproj">
