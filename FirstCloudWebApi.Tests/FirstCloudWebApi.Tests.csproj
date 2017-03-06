@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PowerCalculatorTests.cs" />
     <Compile Include="SieveOfEratosthenesTests.cs" />
     <Compile Include="StringPermutationServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,8 +15,8 @@ namespace FirstCloudWebApi.Services
             this.actions2 = new List<string>();
             this.MoveDisks(disksCount, "1", "3", "2");
 
-            return this.actions2.Count.ToString();
-            //return string.Join(", ", this.actions2);
+            //return this.actions2.Count.ToString();
+            return string.Join(", ", this.actions2);
             //return this.actions.ToString();
         }
 
