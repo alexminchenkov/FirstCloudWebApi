@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PermutationService.cs" />
+    <Compile Include="PowerCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SieveOfEratosthenes.cs" />
     <Compile Include="StringPermutationService.cs" />
