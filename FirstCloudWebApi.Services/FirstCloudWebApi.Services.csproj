@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Palindrom.cs" />
     <Compile Include="PermutationService.cs" />
     <Compile Include="PowerCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

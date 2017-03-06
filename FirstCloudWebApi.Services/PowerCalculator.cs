@@ -33,7 +33,7 @@ namespace FirstCloudWebApi.Services
                 return 1;
             }
 
-            return baseNumber*this.PowerRecursivelyWithImprovement(baseNumber, exp - 1);
+            return baseNumber*this.PowerRecursively(baseNumber, exp - 1);
         }
 
         public int PowerRecursivelyWithImprovement(int baseNumber, int exp)
