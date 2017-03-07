@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySearch.cs" />
     <Compile Include="Palindrom.cs" />
     <Compile Include="PermutationService.cs" />
     <Compile Include="PowerCalculator.cs" />
