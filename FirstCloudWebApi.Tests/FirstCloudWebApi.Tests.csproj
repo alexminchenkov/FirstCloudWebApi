@@ -72,8 +72,8 @@
     <Compile Include="PalindromTests.cs" />
     <Compile Include="PowerCalculatorTests.cs" />
     <Compile Include="SieveOfEratosthenesTests.cs" />
-    <Compile Include="StringPermutationServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringPermutationTests.cs" />
     <Compile Include="TowersOfHanoiTests.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,16 +4,16 @@ using Swashbuckle.Swagger.Annotations;
 
 namespace FirstCloudWebApi.Controllers
 {
-    [RoutePrefix("api/StringPermutation")]
+    [RoutePrefix("api/StringPermutations")]
     public class StringPermutationController : ApiController
     {
-        private readonly StringPermutationService service = new StringPermutationService();
+        private readonly StringPermutation2 service = new StringPermutation2();
 
-        //[HttpGet]
-        [Route("{source}/{checking}")]
-        public bool Get(string source, string checking)
+        [HttpGet]
+        [Route("{source}")]
+        public string Get(string source)
         {
-            return service.IsPermutation(source, checking);
+            return service.GetPermutations(source);
         }
     }
 }
