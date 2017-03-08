@@ -15,5 +15,12 @@ namespace FirstCloudWebApi.Controllers
         {
             return service.GetPermutations(source);
         }
+
+        [HttpGet]
+        [Route("subsets/{source}")]
+        public string GetSubsetPermutions(string source)
+        {
+            return service.GetPermutationsWithSubsets(source);
+        }
     }
 }

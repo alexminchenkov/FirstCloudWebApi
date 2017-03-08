@@ -19,5 +19,17 @@ namespace FirstCloudWebApi.Tests
             // Assert
             Assert.AreEqual(expected, result);
         }
+
+        //[TestCase("a", "a")]
+        //[TestCase("ab", "ab, ba")]
+        //[TestCase("abc", "abc, acb, bac, bca, cab, cba")]
+        public void GetPermutationsWithSubsets_ShouldReturnCorrectResult(string source, string expected)
+        {
+            // Action
+            var result = this.classUnderTest.GetPermutationsWithSubsets(source);
+
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }

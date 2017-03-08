@@ -68,12 +68,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnagramTests.cs" />
     <Compile Include="BinarySearchTests.cs" />
     <Compile Include="PalindromTests.cs" />
     <Compile Include="PowerCalculatorTests.cs" />
     <Compile Include="SieveOfEratosthenesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringPermutationTests.cs" />
+    <Compile Include="StringReversionTests.cs" />
     <Compile Include="TowersOfHanoiTests.cs" />
   </ItemGroup>
   <ItemGroup>
