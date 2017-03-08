@@ -33,10 +33,10 @@ namespace FirstCloudWebApi.Services
 
         public bool SearchWithIndexes(List<int> source, int searchingValue)
         {
-            return this.Search(source, searchingValue, 0, source.Count - 1);
+            return this.SearchWithIndexes(source, searchingValue, 0, source.Count - 1);
         }
 
-        private bool Search(List<int> source, int searchingValue, int startIndex, int endIndex)
+        private bool SearchWithIndexes(List<int> source, int searchingValue, int startIndex, int endIndex)
         {
             if (startIndex > endIndex)
             {
@@ -51,10 +51,10 @@ namespace FirstCloudWebApi.Services
 
             if (source[mediumIndex] <= searchingValue)
             {
-                return this.Search(source, searchingValue, mediumIndex + 1, endIndex);
+                return this.SearchWithIndexes(source, searchingValue, mediumIndex + 1, endIndex);
             }
 
-            return this.Search(source, searchingValue, 0, mediumIndex - 1);
+            return this.SearchWithIndexes(source, searchingValue, 0, mediumIndex - 1);
         }
     }
 }

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="BubbleSort.cs" />
     <Compile Include="Palindrom.cs" />
     <Compile Include="PowerCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

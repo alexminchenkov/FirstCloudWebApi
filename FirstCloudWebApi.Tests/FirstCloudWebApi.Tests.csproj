@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="AnagramTests.cs" />
     <Compile Include="BinarySearchTests.cs" />
+    <Compile Include="BubbleSortTests.cs" />
     <Compile Include="PalindromTests.cs" />
     <Compile Include="PowerCalculatorTests.cs" />
     <Compile Include="SieveOfEratosthenesTests.cs" />
