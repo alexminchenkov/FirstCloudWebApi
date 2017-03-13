@@ -103,6 +103,7 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\GraphController.cs" />
     <Compile Include="Controllers\SieveOfEratosthenesController.cs" />
     <Compile Include="Controllers\SomeController.cs" />
     <Compile Include="Controllers\StringPermutationController.cs" />

@@ -69,11 +69,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnagramTests.cs" />
+    <Compile Include="BFSTests.cs" />
     <Compile Include="BinarySearchTests.cs" />
     <Compile Include="BubbleSortTests.cs" />
+    <Compile Include="DFSTests.cs" />
     <Compile Include="InsertionSortTests.cs" />
     <Compile Include="PalindromTests.cs" />
     <Compile Include="PowerCalculatorTests.cs" />
+    <Compile Include="QuickSortTests.cs" />
     <Compile Include="SelectionSortTests.cs" />
     <Compile Include="SieveOfEratosthenesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
