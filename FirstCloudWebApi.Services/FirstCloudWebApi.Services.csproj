@@ -43,6 +43,7 @@
     <Compile Include="Anagram.cs" />
     <Compile Include="BFS.cs" />
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="BinarySearchTree.cs" />
     <Compile Include="BubbleSort.cs" />
     <Compile Include="DFS.cs" />
     <Compile Include="Graph.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="StringPermutation2.cs" />
     <Compile Include="StringReversion.cs" />
     <Compile Include="TowersOfHanoi.cs" />
+    <Compile Include="TreeNode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

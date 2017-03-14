@@ -71,6 +71,7 @@
     <Compile Include="AnagramTests.cs" />
     <Compile Include="BFSTests.cs" />
     <Compile Include="BinarySearchTests.cs" />
+    <Compile Include="BinarySearchTreeTests.cs" />
     <Compile Include="BubbleSortTests.cs" />
     <Compile Include="DFSTests.cs" />
     <Compile Include="InsertionSortTests.cs" />
